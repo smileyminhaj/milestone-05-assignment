@@ -22,3 +22,65 @@
     color: #006747;
     font-weight: 900;
 }
+
+/* * ======= Main Section design ======= */
+
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.child-grid {
+  background-color: green;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Positioning for each grid item */
+.child-grid:nth-child(3) {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.child-grid:nth-child(4) {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.child-grid:nth-child(5) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.child-grid:nth-child(6) {
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
+
+.child-grid:nth-child(7) {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+.child-grid:nth-child(8) {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+.child-grid:nth-child(9) {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+.special {
+  grid-row: span 3 / span 3;
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+ 
