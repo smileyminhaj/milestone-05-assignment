@@ -11,86 +11,73 @@
     margin: 0 auto;
     padding: 0 20px; 
 }
+.container{
+  width: 95vw;
+  margin: 0 auto;
+  padding: 0;;
+}
 .dflex{
   display: flex;
   align-items: center;
 }
 
+
+
+
+
+
 /* * ======= Nav bar design ======= */
 .nav{
-    background-color: red;
+    background-color: rgb(233, 233, 233);
     max-height: 100px;
     justify-content: space-between;
     padding: 10px 30px;
 }
+/* * ======= Nav Left side ======= */
 .nav-child1{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .nav-child1 h2{
-    color: #006747;
-    font-weight: 900;
+  color: #006747;
+  font-weight: 900;
 }
+
+/* * ======= Nav Right side ======= */
+.nav-child2{
+  gap: 10px;
+  background-color: red;
+  gap: 30px;
+  padding: 10px 20px;
+  
+}
+
+.nbtn{
+  display: flex;
+  gap: 10px;
+  background-color: yellow;
+  padding: 6px 30px;
+  border-radius: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.nbtn img{
+  width: 20px;
+}
+
+
 
 /* * ======= Main Section design ======= */
 
-.main-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  gap: 8px;
+.main{
+  background-color: 
+background: #01452F;
+background: linear-gradient(90deg, rgba(1, 69, 47, 1) 0%, rgba(1, 125, 86, 1) 53%, rgba(1, 69, 47, 1) 100%);
 }
+  min-height: 300px;
+}
+/* !Reserve
 
-.child-grid {
-  background-color: green;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  padding: 10px;
-}
-
-/* Positioning for each grid item */
-.child-grid:nth-child(3) {
-  grid-column-start: 1;
-  grid-row-start: 2;
-}
-
-.child-grid:nth-child(4) {
-  grid-column-start: 1;
-  grid-row-start: 3;
-}
-
-.child-grid:nth-child(5) {
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-
-.child-grid:nth-child(6) {
-  grid-column-start: 2;
-  grid-row-start: 3;
-}
-
-.child-grid:nth-child(7) {
-  grid-column-start: 3;
-  grid-row-start: 3;
-}
-
-.child-grid:nth-child(8) {
-  grid-column-start: 3;
-  grid-row-start: 2;
-}
-
-.child-grid:nth-child(9) {
-  grid-column-start: 3;
-  grid-row-start: 1;
-}
-
-.special {
-  grid-row: span 3 / span 3;
-  grid-column-start: 4;
-  grid-row-start: 1;
-}
- 
+*/

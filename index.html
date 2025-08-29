@@ -3,48 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- !Tailwind Script Link -->
+    <title>Emergency Service</title>
+    <!-- !Favicon -->
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <!-- !Tailwind and daisy UI Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- !CSS Link -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="">
     <!-- *Nav area design -->
-    <section class="nav dflex">
+    <section class="nav dflex container">
       <div class="nav-child1">
-        <img width="50px" src="./assets/logo.png" alt="" />
-        <h2>
+        <img class="w-12" src="./assets/logo.png" alt="" />
+        <h2 class="text-3xl">
           Emergency <br />
           Service
         </h2>
       </div>
-      <div class="nav-child2">
-        <div class="nav-btn-parent">
-          <button>Copy</button>
-        </div>
+      <div class="nav-child2  dflex ">
+        <button class="nbtn">0<img class="" src="./assets/heart.png" alt=""></button>
+        <button class="nbtn">100<img class="" src="./assets/coin.png" alt=""></button>
+        <button class="nbtn">Copy</button>
       </div>
     </section>
+    <!--* ================================================================ -->
+    
     <!-- *Banner area design -->
-    <section class="banner"></section>
+    <section class="banner">
+      <img src="./assets/logo-dark.png" alt="">
+    </section>
+
+    <!--* ================================================================ -->
+
+
+    
     <!-- *Main area design -->
-    <main class="main">
-      <section class="grid-parent">
-        <div class="main-grid">
-          <div class="child-grid">1</div>
-          <div class="child-grid">2</div>
-          <div class="child-grid">3</div>
-          <div class="child-grid">4</div>
-          <div class="child-grid">5</div>
-          <div class="child-grid">6</div>
-          <div class="child-grid">7</div>
-          <div class="child-grid">8</div>
-          <div class="child-grid">9</div>
-          <div class="child-grid special">13</div>
-        </div>
-      </section>
-    </main>
-    <!-- !Script Link -->
+    <section class="main">
+      
+    </section>
+    <!-- *Script Link -->
     <script src="script.js"></script>
   </body>
 </html>
