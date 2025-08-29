@@ -4,10 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency Service</title>
+    <!--! Favicon -->
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link <!--! Tailwind and Daisy CDN Added -- />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+    <!--! Poppins Font Add -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!--! CSS link -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -39,7 +52,7 @@
         <button id="menuToggle" class="nbtn">☰</button>
       </div>
     </section>
-
+    <!-- * Js Toggle button and nav button -->
     <div id="popupMenu" class="popup hidden">
       <button class="nbtn">
         <span class="lovecount">0</span>
@@ -54,16 +67,56 @@
         Copy
       </button>
     </div>
-
+    <!--* Banner Section -->
     <section class="banner">
       <img src="./assets/logo-dark.png" alt="" />
       <h1>Emergency Service Directory</h1>
       <p class="bannerp">
-        Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of Bangladesh
+        Government Emergency Services at Your Fingertip – A Project by
+        Government of the People’s Republic of Bangladesh
       </p>
     </section>
+    <!--!=================Main Section ===============  -->
+    <main class="main w-11/12 mx-auto py-10 grid grid-cols-12 ">
+      
+      <section class="servie bg-indigo-400 col-span-9">
+        <h1>Service</h1>
+      </section>
 
-    <section class="main"></section>
+      <aside class="aside ">
+          <div class="card">
+  <div class="service-box">
+    <div class="icon" aria-label="Police icon"></div>
+    <div class="heart-icon" aria-label="Favorite icon">♡</div>
+  </div>
+  <div class="title">Police Helpline Number</div>
+  <div class="subtitle">Police</div>
+  <div class="number">999</div>
+  <div class="tag">Police</div>
+  <div class="actions">
+    <button class="copybtn">Copy</button>
+    <button class="call-btn">Call</button>
+  </div>
+</div>
+      </aside>
+    </main>
+    <!--!=======================================================  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!--! ========== Js Script ========== -->
     <script src="script.js"></script>
   </body>
 </html>
