@@ -22,7 +22,7 @@ body {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 10px;
   width: 300px;
   margin: 20px;
   color: #333;
@@ -60,7 +60,10 @@ body {
 .subtitle {
   font-size: 0.9em;
   color: #666;
+  margin: 0;
   margin-bottom: 15px;
+  padding: 0px;
+  text-align: left;
 }
 
 .number {
@@ -69,7 +72,8 @@ body {
   margin-bottom: 15px;
 }
 
-.tag {
+.up-copy {
+  width: 30%;
   display: inline-block;
   background-color: #f0f0f0;
   color: #666;
@@ -77,6 +81,7 @@ body {
   border-radius: 20px;
   font-size: 0.8em;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .actions {
