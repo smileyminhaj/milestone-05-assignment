@@ -26,6 +26,23 @@ body {
   width: 300px;
   margin: 20px;
   color: #333;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.253);
+
+}
+
+.aside-bg{
+  font-family: sans-serif;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0px;
+  width: 400px;
+  margin: 0 auto
+  margin-top: 15px;
+  color: #333;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.253);
+
+
 }
 
 .service-box {
@@ -36,8 +53,8 @@ body {
 }
 
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   background-color: #e0f2f7;
   border-radius: 8px;
   display: flex;
