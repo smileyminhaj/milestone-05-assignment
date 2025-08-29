@@ -17,6 +17,9 @@ body {
   align-items: center;
 }
 /* ! Shared Box Style */
+.light{
+  background-color: #edebeb;
+}
 .card {
   font-family: sans-serif;
   background-color: #fff;
@@ -37,8 +40,8 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 0px;
   width: 400px;
-  margin: 0 auto
-  margin-top: 15px;
+  margin-left: 30px;
+  margin-top: 28px;
   color: #333;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.253);
 
@@ -84,7 +87,7 @@ body {
 }
 
 .number {
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: bold;
   margin-bottom: 15px;
 }
@@ -141,10 +144,12 @@ body {
 /* !Navbar Style =============*/
 
 .nav {
-  background-color: rgb(255, 255, 255);
+
+background: linear-gradient(90deg, rgb(222, 222, 222) 0%, rgb(237, 248, 233) 97%);
   max-height: 100px;
   justify-content: space-between;
   padding: 10px 30px;
+  margin: 0 auto;
 }
 
 .nav-child1 {
@@ -194,7 +199,7 @@ body {
     rgb(0, 98, 62) 53%,
     rgb(0, 40, 28) 100%
   );
-  width: 100vw;
+ 
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -241,9 +246,37 @@ h1 {
 .hidden {
   display: none;
 }
-/** Main Section================  */
-/* !===================Main Section ================= */
 
+/* !===================Main Section ================= */
+.main{
+  width: 0 auto;
+  background-color: background: #dbdbdb;
+  background: linear-gradient(90deg, rgba(219, 219, 219, 1) 0%, rgba(210, 255, 196, 1) 97%);
+  
+}
+/* !===================Aside Section ================= */
+.asideupdiv{
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clears{
+  background-color: #28a745;
+  color: #fff;
+   padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  transition: background-color 0.2s ease;
+
+}
 
 
 /* ! Media Query */
@@ -295,4 +328,7 @@ h1 {
   .bannerp {
     font-size: 14px;
   }
+
+  /* !card */
+
 }
